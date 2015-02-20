@@ -1,0 +1,40 @@
+<section example-ctrl>
+
+  <style>
+    .scroll{
+      width: 400px;
+      margin-top: 20px;
+      border: 1px solid aliceblue;
+      height: 150px;
+      overflow: scroll;
+    }
+    
+    .dropdown{
+      margin-top: 80px;
+    }
+    
+    .btn-tooltip{
+      float:right;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+  </style>
+  
+  <div class="container scroll">
+    <div tooltip-ctrl>
+      <button type="button" class="btn-tooltip" tooltip="Nice, hu?"  tooltip-trigger="mouseenter" tooltip-placement="right">Hover me for tooltip</button>
+    </div>
+    
+    <div dropdown-ctrl>
+      <div class="dropdown">
+        <a class="btn btn-default" dropdown-toggle href="#" role="button">Dropdown <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Entry 1</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Entry 2</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Entry 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</section>

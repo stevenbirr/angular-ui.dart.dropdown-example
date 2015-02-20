@@ -1,0 +1,16 @@
+name: AngularUIDropdown
+description: This example shows a bug when using the AngularDartUI-Dropdown in scrollable areas
+version: 0.0.1
+environment:
+  sdk: '>=0.8.10+6 <2.0.0'
+dependencies:
+  browser: any
+  angular: 1.1.0
+  angular_ui: ">=0.6.4 <0.7.0"
+  web_components: ">=0.3.4 <0.4.0"
+dev_dependencies:
+transformers:
+- angular:
+    html_files:
+      - web/index.html
+      - web/example/example.html
